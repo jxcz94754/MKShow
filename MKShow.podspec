@@ -30,8 +30,6 @@ A general pop-up box, pop-up references to third-party libraries of Masonry and 
 
   s.ios.deployment_target = '8.0'
 
-  s.dependency "Masonry",'0.1.6'
-
   s.frameworks = "UIKit"
 
   s.source_files  = "MarkShow/MK/*.{h,m}"
