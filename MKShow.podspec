@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Mark" => "1032325795@qq.com" }
 
-  s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.0" }
 
 s.source_files  = "MarkShow/MK/*.{h,m}"
 
