@@ -144,10 +144,9 @@
 }
 
 - (CGFloat)getLabelHeightWithContent:(nullable NSString *)content AndtitleFont:(CGFloat)fontSize{
-    UIFont *font = [UIFont systemFontOfSize:fontSize];
-    CGSize size = CGSizeMake([UIScreen mainScreen].bounds.size.width - 120 - 24,CGFLOAT_MAX);
-    CGSize contentSize = [content sizeWithFont:font constrainedToSize:size lineBreakMode:UILineBreakModeWordWrap];
-    return contentSize.height;
+    UCGSize size = CGSizeMake([UIScreen mainScreen].bounds.size.width - 120 - 24,CGFLOAT_MAX);
+    CGRect contentSize = [content boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil];
+    return contentSize.size.height;
 }
 
 @end
