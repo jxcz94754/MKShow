@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "{s.version}" }
 
-s.source_files  = "MarkShow/*.{h,m}"
+s.source_files  = "MarkShow/MK/*.{h,m}"
 
   s.requires_arc = true
 
