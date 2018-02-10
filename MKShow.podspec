@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.0" }
 
-  s.dependency "Masonry","~>0.6.1"
+  s.dependency "Masonry"
   s.frameworks = "UIKit"
 
   s.source_files  = "MarkShow/MK/*.{h,m}"
