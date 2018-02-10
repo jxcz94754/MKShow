@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.summary      = "这是一个公共的类库你可以下载应用到你的系统中"
 
   s.description  = <<-DESC
+A general pop-up box, pop-up references to third-party libraries of Masonry and system library UIKit the pop-up box has a variety of display style.
+                    DESC
 
   s.platform = :ios, "8.0"
 
