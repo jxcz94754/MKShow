@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 A general pop-up box, pop-up references to third-party libraries of Masonry and system library UIKit the pop-up box has a variety of display style.
                     DESC
 
-  s.platform = :ios, "8.0"
+  s.platform = :ios, "9.0"
 
   s.homepage     = "https://github.com/jxcz94754/MKShow"
 
@@ -28,10 +28,10 @@ A general pop-up box, pop-up references to third-party libraries of Masonry and 
 
   s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.0" }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.frameworks = "UIKit"
-
+  s.frameworks = "Foundation"
   s.source_files  = "MarkShow/MK/*.{h,m}"
 
   s.requires_arc = true
