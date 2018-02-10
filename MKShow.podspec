@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.summary      = "这是一个公共的类库你可以下载应用到你的系统中"
 
   s.description  = <<-DESC
-                    MKShow
-                   DESC
+
+  s.platform = :ios, "8.0"
 
   s.homepage     = "https://github.com/jxcz94754/MKShow"
 
@@ -26,7 +26,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.0" }
 
+  s.ios.deployment_target = '8.0'
+
   s.dependency "Masonry"
+
   s.frameworks = "UIKit"
 
   s.source_files  = "MarkShow/MK/*.{h,m}"
