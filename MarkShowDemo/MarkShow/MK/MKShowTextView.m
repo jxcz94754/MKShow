@@ -144,7 +144,7 @@
 }
 
 - (CGFloat)getLabelHeightWithContent:(nullable NSString *)content AndtitleFont:(CGFloat)fontSize{
-    UCGSize size = CGSizeMake([UIScreen mainScreen].bounds.size.width - 120 - 24,CGFLOAT_MAX);
+    CGSize size = CGSizeMake([UIScreen mainScreen].bounds.size.width - 120 - 24,CGFLOAT_MAX);
     CGRect contentSize = [content boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil];
     return contentSize.size.height;
 }
