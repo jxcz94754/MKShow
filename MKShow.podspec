@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MKShow"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "这是一个公共的类库你可以下载应用到你的系统中"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ A general pop-up box, pop-up references to third-party libraries of Masonry and 
 
   s.author       = { "Mark" => "1032325795@qq.com" }
 
-  s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/jxcz94754/MKShow.git", :tag => "1.0.1" }
 
   s.ios.deployment_target = '9.0'
 
