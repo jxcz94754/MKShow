@@ -168,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				D338E31B2011EA3500F201AE /* MarkShow */,
-				D338E2E92011EA0900F201AE /* AppDelegate.h */,
-				D338E2EA2011EA0900F201AE /* AppDelegate.m */,
 				D338E2EC2011EA0900F201AE /* ViewController.h */,
 				D338E2ED2011EA0900F201AE /* ViewController.m */,
 				D338E2EF2011EA0900F201AE /* Main.storyboard */,
@@ -244,6 +242,8 @@
 		D34CBC692021943300ED3BC9 /* MK */ = {
 			isa = PBXGroup;
 			children = (
+				D338E2E92011EA0900F201AE /* AppDelegate.h */,
+				D338E2EA2011EA0900F201AE /* AppDelegate.m */,
 				D39000B820206BD400004A65 /* GlobalMarco.h */,
 				D338E31F2011EB5200F201AE /* MKShowDynamic.h */,
 				D338E3202011EB5200F201AE /* MKShowDynamic.m */,
