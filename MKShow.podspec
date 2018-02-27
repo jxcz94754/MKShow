@@ -32,6 +32,7 @@ A general pop-up box, pop-up references to third-party libraries of Masonry and 
 
   s.frameworks = "UIKit"
   s.frameworks = "Foundation"
+  s.dependency 'Masonry'
   s.source_files  = "MarkShow/MK/*.{h,m}"
 
   s.requires_arc = true
